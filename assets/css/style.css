@@ -50,6 +50,271 @@ textarea {
 h1 {
   color: #c4c4c4; }
 
+#header {
+  padding: 300px;
+  height: 100vh;
+  background-image: url("../image/bg-masthead.jpg");
+  background-size: cover; }
+  #header .portfolio-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #header .portfolio-title h1 {
+      font-size: 66px;
+      color: black;
+      line-height: 50px; }
+    #header .portfolio-title p {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 50px; }
+    #header .portfolio-title a {
+      text-decoration: none;
+      background-color: cadetblue;
+      color: white;
+      padding: 10px;
+      margin-top: 15px;
+      display: inline-block; }
+
+#ux {
+  padding: 100px;
+  background: #F8F9FA; }
+  #ux .ux-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #ux .ux-title h2 {
+      font-size: 30px;
+      color: black;
+      margin-bottom: 10px; }
+    #ux .ux-title p {
+      font-size: 19px;
+      color: gray; }
+    #ux .ux-title a {
+      text-decoration: none;
+      background-color: #212529;
+      color: white;
+      padding: 20px;
+      margin-top: 35px;
+      display: inline-block; }
+
+#offer {
+  padding: 50px;
+  background-color: #1D809F; }
+  #offer .circle {
+    padding: 55px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #offer .circle .circle-icon {
+      color: #1D809F;
+      background-color: white;
+      height: 7rem;
+      width: 7rem;
+      line-height: 7.5rem;
+      text-align: center;
+      border-radius: 50%;
+      font-size: 40px; }
+    #offer .circle .circle-info {
+      text-align: center; }
+      #offer .circle .circle-info h1 {
+        line-height: 40px;
+        color: white; }
+      #offer .circle .circle-info p {
+        font-size: 13px;
+        font-weight: 700;
+        color: white; }
+
+#header2 {
+  padding: 300px;
+  background-image: url("../image/bg-callout.jpg");
+  height: 100vh;
+  background-size: cover; }
+  #header2 .portfolio-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #header2 .portfolio-title h1 {
+      font-size: 66px;
+      color: black;
+      line-height: 70px; }
+    #header2 .portfolio-title p {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 50px; }
+    #header2 .portfolio-title a {
+      text-decoration: none;
+      background-color: cadetblue;
+      color: white;
+      padding: 10px;
+      margin-top: 15px;
+      display: inline-block; }
+
+#buttons {
+  background-color: #1D809F !important;
+  color: white;
+  padding: 120px; }
+  #buttons .buttoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #buttons .buttoon .button-title h1 {
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem; }
+    #buttons .buttoon .first-button {
+      font-weight: 400;
+      line-height: 1.5rem;
+      font-size: 1rem;
+      vertical-align: middle;
+      border-radius: 0.25rem;
+      background-color: white;
+      color: black;
+      padding: 20px;
+      text-decoration: none;
+      display: inline-block; }
+    #buttons .buttoon .second-button {
+      font-weight: 400;
+      line-height: 1.5rem;
+      font-size: 1rem;
+      vertical-align: middle;
+      border-radius: 0.25rem;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-decoration: none;
+      display: inline-block; }
+
+#copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px; }
+  #copyright .socials {
+    display: flex; }
+    #copyright .socials .social {
+      font-size: 1.7rem;
+      box-sizing: border-box;
+      padding: 18px;
+      background-color: cadetblue;
+      border-radius: 50%;
+      width: 5rem;
+      height: 5rem;
+      line-height: 3rem;
+      margin-right: 1rem;
+      text-align: center; }
+      #copyright .socials .social a {
+        color: white; }
+  #copyright .copyright {
+    margin-top: 50px; }
+
+#projects {
+  padding: 100px 0px 100px 0px; }
+  #projects .info-pic {
+    cursor: pointer;
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1);
+    transition: ease-in-out 0.5s;
+    position: relative; }
+    #projects .info-pic .overlay {
+      background-color: #1D809F;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      opacity: 0.7;
+      transition: ease-in-out 0.5s;
+      display: none; }
+    #projects .info-pic .infos {
+      position: absolute;
+      bottom: 4rem;
+      left: 4rem;
+      font-size: 1.2rem;
+      color: white; }
+    #projects .info-pic img {
+      width: 100%;
+      height: 100%; }
+    #projects .info-pic:hover {
+      transform: scale(0.9); }
+    #projects .info-pic:hover .overlay {
+      display: block; }
+
+.hamburger {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  position: fixed; }
+  .hamburger a {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(52, 58, 64, 0.5);
+    padding: 15px;
+    border-radius: 3px; }
+    .hamburger a:hover {
+      background-color: rgba(3, 4, 7, 0.5); }
+
+@media only screen and (max-width: 600px) {
+  #header {
+    padding: 0px;
+    position: relative; }
+    #header .portfolio-title {
+      position: absolute;
+      top: 50%; }
+  #header2 {
+    padding: 0px; }
+  #projects {
+    padding: 100px 0px 100px 0px; }
+    #projects .info-pic {
+      cursor: pointer;
+      width: 100%;
+      height: 350px;
+      margin: 0px;
+      padding: 0px;
+      transform: scale(1);
+      transition: ease-in-out 0.5s;
+      position: relative;
+      box-sizing: border-box;
+      border-bottom: 15px solid white; }
+      #projects .info-pic:hover {
+        transform: none; }
+      #projects .info-pic:hover .overlay {
+        display: none; } }
+
+@media only screen and (max-width: 900px) {
+  #header {
+    padding: 0px;
+    position: relative; }
+    #header .portfolio-title {
+      position: absolute;
+      top: 50%; }
+  #header2 {
+    padding: 0px; }
+  #projects {
+    padding: 100px 0px 100px 0px; }
+    #projects .info-pic {
+      cursor: pointer;
+      width: 100%;
+      height: 350px;
+      margin: 0px;
+      padding: 0px;
+      transform: scale(1);
+      transition: ease-in-out 0.5s;
+      position: relative;
+      box-sizing: border-box;
+      border-bottom: 15px solid white; }
+      #projects .info-pic:hover {
+        transform: none; }
+      #projects .info-pic:hover .overlay {
+        display: none; } }
+
 .button, .button--secondary {
   background-color: blue;
   padding: 10px 20px;

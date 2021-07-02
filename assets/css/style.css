@@ -261,6 +261,47 @@ h1 {
     .hamburger a:hover {
       background-color: rgba(3, 4, 7, 0.5); }
 
+#intro {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../image/bg-masthead (1).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  #intro .content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+
+#demo {
+  height: 100vh;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+  #demo .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    #demo .content p {
+      color: white;
+      margin-bottom: 7rem; }
+
+#navigation {
+  position: sticky;
+  top: 0px; }
+  #navigation .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #navigation .navigation ul li {
+      list-style: none;
+      display: inline-block;
+      padding-left: 2rem; }
+
 @media only screen and (max-width: 600px) {
   #header {
     padding: 0px;

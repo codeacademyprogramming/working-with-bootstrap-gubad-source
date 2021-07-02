@@ -290,17 +290,39 @@ h1 {
       color: white;
       margin-bottom: 7rem; }
 
-#navigation {
-  position: sticky;
+header {
+  position: fixed;
+  width: 100%;
   top: 0px; }
-  #navigation .navigation {
+  header .navigation {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-    #navigation .navigation ul li {
+    header .navigation ul li {
       list-style: none;
       display: inline-block;
       padding-left: 2rem; }
+
+#shoreline .content {
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  #shoreline .content p {
+    text-align: left; }
+  #shoreline .content .shoreline2-info, #shoreline .content .shoreline3-info {
+    background-color: black; }
+    #shoreline .content .shoreline2-info h1, #shoreline .content .shoreline3-info h1 {
+      color: white; }
+    #shoreline .content .shoreline2-info p, #shoreline .content .shoreline3-info p {
+      color: gray; }
+
+#shoreline .shoreline-wrapper {
+  margin-top: 10%;
+  background-color: black; }
+
+#contact .contact-box {
+  border: 2px solid cadetblue;
+  padding: 2rem 3rem; }
 
 @media only screen and (max-width: 600px) {
   #header {

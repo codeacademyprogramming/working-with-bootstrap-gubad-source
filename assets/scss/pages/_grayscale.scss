@@ -31,8 +31,9 @@
         }
     }
 }
-#navigation{
-    position: sticky;
+header{
+    position: fixed;
+    width: 100%;
         top: 0px;
     .navigation{
        
@@ -48,4 +49,35 @@
         }
     }
    
+}
+#shoreline{
+  
+    .content{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        p{
+           text-align: left;
+        }
+        .shoreline2-info, .shoreline3-info{
+            background-color: black;
+            
+            h1{
+                color: white;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+    .shoreline-wrapper{
+        margin-top: 10%;
+        background-color: black;
+    }
+}
+#contact{
+    .contact-box{
+        border: 2px solid cadetblue;
+        padding: 2rem 3rem;
+    }
 }

@@ -320,9 +320,70 @@ header {
   margin-top: 10%;
   background-color: black; }
 
-#contact .contact-box {
-  border: 2px solid cadetblue;
-  padding: 2rem 3rem; }
+#sign-up {
+  padding: 10rem 0rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(../image/bg-signup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  #sign-up form .form {
+    display: flex;
+    justify-content: center; }
+    #sign-up form .form input {
+      padding: 1.25rem 2rem;
+      width: 60%;
+      margin: 0rem 1rem;
+      font-size: 80%;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      border: 1px solid cadetblue; }
+    #sign-up form .form button {
+      padding: 1.25rem 2rem;
+      color: white;
+      font-size: 80%;
+      background-color: #64a19d;
+      opacity: 0.6;
+      letter-spacing: 0.15rem;
+      border: 0; }
+
+#contact {
+  background-color: black;
+  padding: 10rem 0rem; }
+  #contact .contact-box {
+    border-bottom: 0.3rem solid cadetblue;
+    background-color: white;
+    padding: 2rem 3rem; }
+    #contact .contact-box h6 {
+      letter-spacing: 0.3rem; }
+    #contact .contact-box hr {
+      color: cadetblue; }
+    #contact .contact-box i {
+      color: cadetblue; }
+
+footer {
+  background-color: black;
+  padding: 1rem 0rem; }
+  footer .social {
+    display: flex;
+    justify-content: center; }
+    footer .social li {
+      display: inline; }
+      footer .social li a {
+        display: inline-block;
+        background-color: #222020;
+        padding: 1rem;
+        line-height: 2rem;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        margin: 0rem 0.7rem;
+        transition: ease-in-out 0.7s; }
+        footer .social li a:hover {
+          background-color: #474343; }
+        footer .social li a i {
+          color: gray; }
 
 @media only screen and (max-width: 600px) {
   #header {

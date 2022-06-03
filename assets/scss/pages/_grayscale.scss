@@ -1,0 +1,159 @@
+
+#intro{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('../image/bg-masthead (1).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+.content{
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+}
+#demo{
+    height: 100vh;
+   background:  linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        p{
+            color: white;
+            margin-bottom: 7rem;
+        }
+    }
+}
+header{
+    position: fixed;
+    width: 100%;
+        top: 0px;
+    .navigation{
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        ul{
+            li{
+                list-style: none;
+                display: inline-block;
+                padding-left: 2rem;
+            }
+        }
+    }
+   
+}
+#shoreline{
+  
+    .content{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        p{
+           text-align: left;
+        }
+        .shoreline2-info, .shoreline3-info{
+            background-color: black;
+            
+            h1{
+                color: white;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+    .shoreline-wrapper{
+        margin-top: 10%;
+        background-color: black;
+    }
+}
+
+#sign-up{
+    padding: 10rem 0rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(../image/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    form{
+        .form{
+            display: flex;
+            justify-content: center;
+            input{
+                padding: 1.25rem 2rem;
+                width: 60%;
+               margin:0rem 1rem;
+                font-size: 80%;
+                text-transform: uppercase;
+                letter-spacing: 0.15rem;
+                border: 1px solid cadetblue;
+            }
+            button{
+              
+                padding: 1.25rem 2rem;
+              color: white;
+                font-size: 80%;
+               background-color: #64a19d;
+               opacity: 0.6;
+                letter-spacing: 0.15rem;
+                border: 0;
+            }
+        }
+    }
+}
+#contact{
+    background-color: black;
+    padding: 10rem 0rem;
+    .contact-box{
+        border-bottom: 0.3rem solid cadetblue;
+        background-color: white;
+        padding: 2rem 3rem;
+        h6{
+            letter-spacing: 0.3rem;
+        }
+        hr{
+          color: cadetblue;
+        }
+        i{
+            color: cadetblue;
+        }
+    }
+}
+footer{
+    background-color: black;
+    padding: 1rem 0rem;
+    .social{
+        display: flex;
+        justify-content: center;
+        li{
+            display: inline;
+            a{
+                display: inline-block;
+                background-color: rgb(34, 32, 32);
+                padding: 1rem;
+                line-height: 2rem;
+                border-radius: 50%;
+                width: 4rem;
+                height: 4rem;
+                text-align: center;
+                margin: 0rem 0.7rem;
+                transition: ease-in-out 0.7s;
+                &:hover{
+                    background-color: rgb(71, 67, 67);  
+                }
+
+                i{
+                    color: gray;
+                }
+            }
+        }
+    }
+}
